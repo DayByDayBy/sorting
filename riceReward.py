@@ -1,4 +1,8 @@
-squares = input("okay, so there are 64 square on a chess board, and 100 on a snakes and ladders board, so how many squares are there on the board you have?  ")
+#a really basic script based on the legendary reward 
+# also a way to demo exponential growth 
+# and the bitwise operator, <<
+
+squares = input("okay, so there are 64 square on a chess board, and 100 on a snakes and ladders board, \nso how many squares are there on the board you have?  ")
 
 reward = f'{(1<<(int(squares))):,}'
 print(reward)
